@@ -1,0 +1,144 @@
+body{
+    
+    background-color:  hsl(217, 54%, 11%);
+    font-family: outfit;
+}
+.box{
+    display: inline-block;
+    background-color: hsl(216, 50%, 16%);
+    width: 22%;
+    margin: 65px 495px;
+    border-radius: 13px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hov1{
+    position: absolute;
+    top: 15px;
+    height: 94%;
+    width: 86%;
+    background-color:hsl(178, 100%, 50%) ;
+    opacity: 0;
+    border-radius: 7px;
+}
+.view{
+    position: absolute;
+    
+    opacity: 0;
+}
+.img:hover .view{
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.img:hover .hov1{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.nft{
+    width: 86%;
+    margin-top: 15px;
+    /* margin-left: 20px; */
+    border-radius: 7px;
+    
+}
+
+
+.text-bold{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    /* margin-bottom:150px ; */
+    text-indent: 20px;
+}
+
+.text-light{
+    text-align: left;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0px;
+    /* margin-bottom: 40px; */
+    padding-left: 19px;
+    padding-right: 15px;
+    color:hsl(215, 51%, 70%);
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+} 
+.rate,.time{
+    display: flex;
+    /* align-items:flex-start; */
+    justify-content: space-between;
+    height: 15px;    
+}
+.time{
+    margin-right: 9px;
+}
+.four-desc{
+    margin-top: 0px;
+    font-size: 12px;
+    width: 60px;
+}
+.desc{
+    color: hsl(178, 100%, 50%);
+}
+.time{
+    color: hsl(215, 51%, 70%);
+}
+.four-icon{
+    width: 12%;
+    height: 85%;
+    margin-top: 1px;
+    margin-right: 6px;
+    margin-left: 17px;
+}
+.line{
+    border-top: 1px solid hsla(215, 52%, 70%, 0.256);
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:22px;
+}
+.five{
+    display: flex;
+    margin-bottom: 18px;
+}
+.id{
+    border-radius: 50px;
+    width: 10%;
+    height:10%;
+    margin-left: 17px;
+    margin-top: 12px;
+}
+.five-desc{
+    color: hsla(215, 52%, 70%, 0.68);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left:15px ;
+    word-spacing: 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hov:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
